@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('openmrs-module-bhamni.navigation', [])
-    .controller('NavigationController', ['$scope', '$rootScope', '$location', function ($scope, $rootScope, $location) {
-        var loginPagePath = "/registration/login";
+angular.module('openmrs-module-bahmni.navigation', ['openmrs-module-bahmni.sessionService'])
+    .controller('NavigationController', ['$scope', '$rootScope', '$location', 'sessionService', function ($scope, $rootScope, $location, sessionService) {
+        var loginPagePath = "/login";
 
         $scope.createNew = function() {
             $location.url("/registration/patient/new");
