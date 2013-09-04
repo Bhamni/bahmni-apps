@@ -1,0 +1,10 @@
+{
+    "name": "bahmni-apps",
+    "version": "0.0.1",
+    "description": "Bahmni Apps",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "matchdep": "~0.1.2",
+        "grunt-contrib-compass": "~0.1.3"
+    }
+}
