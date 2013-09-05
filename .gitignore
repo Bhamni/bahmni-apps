@@ -2,3 +2,7 @@ target
 .DS_Store
 node_modules/
 .sass-cache/
+app/components
+*.iml
+dist/
+app/styles/css/
