@@ -3,7 +3,7 @@
 
 angular.module('resources.appService', [])
 	.factory('appService', ['$http', '$rootScope', function ($http, $rootScope) {
-			var extensionPointIdForHomePage =  "bhamni.homepageLink";
+			var extensionPointIdForHomePage =  "bahmni.homepageLink";
 			var openmrsUrl = "/openmrs"
 
 			var allApps = function(){
