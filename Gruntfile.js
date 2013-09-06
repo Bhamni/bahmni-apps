@@ -59,7 +59,7 @@ module.exports = function(grunt) {
                         '*',
                         '.htaccess',
                         'components/**/*',
-                        'images/**/*.{gif,webp}',
+                        'images/**/*.{gif,png}',
                         'styles/fonts/*',
                         'lib/**/*',
                         'styles/css/**/*',
